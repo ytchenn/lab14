@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>lab14</title>
+</head>
+<body>
+<script>
+	var sentence=window.prompt("input data");
+	var letter=window.prompt("input a char to search");
+var text1=sentence.indexOf(letter);
+var text2=sentence.lastIndexOf(letter);
+var text3=sentence.indexOf(letter, 3);
+document.write("<p>"+text1+"</p>");
+document.write("<p>"+text2+"</p>");
+document.write("<p>"+text3+"</p>");
+	</script>
+</body>
+</html>
